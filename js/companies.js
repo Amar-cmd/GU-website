@@ -28,7 +28,7 @@ logos.forEach(function (logo) {
   var img = document.createElement("img");
   img.src = logo;
   img.alt = "Company Logo";
-  img.className = "company-logo"; // Add this line
+  img.className = "company-logo";
   row.appendChild(img);
 
 

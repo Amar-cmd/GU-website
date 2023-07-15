@@ -4,6 +4,11 @@ body, html {
     padding: 0;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+::-webkit-scrollbar {
+    display: none;
 }
 
 .section-1 {
@@ -121,8 +126,6 @@ header {
     color: #000;
     transition: ease-in-out 400ms;
 }
-
-/* other styles remain the same... */
 
 .label-toggle::before,
 .label-toggle::after {
