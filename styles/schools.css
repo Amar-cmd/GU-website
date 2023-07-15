@@ -1,0 +1,185 @@
+#section-2 {
+    padding: 20px;
+    background-color: white;
+    width: 100vw;
+    height: 100%;
+
+}
+
+#section-2 h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    font-family: sans-serif;
+}
+
+#section-2 p {
+    text-align: center;
+    font-size: 1.5em;
+    color: #777;
+    font-family: sans-serif;
+}
+
+#schools {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;  /* Increase the gap size between grid items */
+}
+
+.school {
+    transition: all 0.3s ease;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 0.1em;  /* Add some padding around each school */
+}
+
+.school:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.school img {
+  width: 90%;  /* Decrease the image width */
+  height: auto;
+  display: block;  /* Center the image */
+  margin: auto;
+}
+
+.school p {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+#section-3 {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+
+}
+#section-3 {
+    padding: 20px;
+    text-align: center;
+}
+
+#section-3 h1 {
+    font-size: 2em;
+    color: #333;
+    font-family: sans-serif;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px 100px 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#search-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #c00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+#search-button p {
+    margin: 0;
+    font-size: 1em;
+}
+
+#section-4 {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Updated alignment to bottom */
+    background: #f4f4f4;
+}
+
+.info-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+}
+
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.info-item h2 {
+    font-size: 3em;
+    font-weight: 600;
+    color: #c00;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.info-item p {
+    font-size: 1.5em;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.info-item:first-child {
+    margin-left: 0;
+}
+
+.info-item:last-child {
+    margin-right: 0;
+}
+
+.section-5{
+    width: 100vw;
+}
+
+.section-5-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#logo-container{
+   width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section-5 .company-logo {
+    border: 1px solid #0002; /* Change the color to suit your design */
+}
